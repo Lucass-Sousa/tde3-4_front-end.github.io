@@ -419,6 +419,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+    .header__subtitle {
+        background-color: #00001B;
+    }
     .header__container ,.section__content ,#gallery ,#news{
         padding: 25px 0;
         transition: 0.3s;
@@ -439,6 +442,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .header__subtitle {
+        background-color: #00001B;
+    }
     .intro__banner {
         width: 500px;
         padding: 60px 0;
@@ -463,6 +469,9 @@ body {
 }
 
 @media (max-width: 640px) {
+    .header__subtitle {
+        background-color: #00001B;
+    }
     .header__container {
         height: 55px;
         transition: 0.3;
@@ -488,6 +497,13 @@ body {
 }
 
 @media (max-width: 475px) {
+    .header__subtitle {
+        background-color: #00001B;
+    }
+    .section__text, .header__subtitle{
+       font-size: 15px;
+       line-height: 15px;
+    }
     .about__description {
         font-size: 10px;
         transition: 0.3;
